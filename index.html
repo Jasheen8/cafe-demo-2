@@ -12,7 +12,7 @@
       --surface: rgba(255,255,255,0.06);
       --surface-strong: rgba(255,255,255,0.10);
       --text: #FFFFFF;
-      --muted: rgba(255,255,255,0.74);
+      --muted: rgba(255,255,255,0.06);
       --accent: #60001A;
       --accent-2: #FFFFFF;
       --dark: #FFFFFF;
@@ -86,7 +86,7 @@
     }
     .section-title p {
       margin: 0;
-      color: rgba(255,255,255,0.78);
+      color: var(--muted);
       font-size: 1.02rem;
     }
 
@@ -1316,3 +1316,16 @@
   </script>
 </body>
 </html>
+
+<style>
+body{color:#F5F5F5!important;background:#050505!important;}
+p,.section-title p,.menu-card p,.mini-offer p,.testimonial-card p,.info-card span,.note,span{
+color:#DCDCDC!important;
+}
+.accent,.price,.tag,.eyebrow,.pill{
+color:#D94A6A!important;
+}
+.primary-btn,.nav-cta{
+background:#B11245!important;
+}
+</style>
